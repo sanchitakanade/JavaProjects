@@ -26,12 +26,11 @@ To run this program user required to have any Java IDE and git (Distributed Vers
 
 ## Installation
 I am using eclipse, java IDE and a web based git platform 'github.com'
-step 1. go to the following website
-        https://ninite.com/
-step 2. select proper JDK and eclipse, then click on 'Get your Ninite'. 
-        This will download and install eclipse and JDK
-step 3. Go to https://github.com/ and create an account.
-step 4. 
+1. go to the following website
+   https://ninite.com/
+2. select proper JDK and eclipse, then click on 'Get your Ninite'. Then download and install eclipse and JDK
+3. Go to https://github.com/ and create an account.
+4. 
         
        
 
