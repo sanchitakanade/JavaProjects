@@ -20,11 +20,11 @@ Each lottery ticket will be generated using following conditions,
 	 
 ## Getting Started
 
-- Prerequisites
+### Prerequisites
 
-To run this program user required to have any Java IDE and git (Distributed Version Control System).
+ To run this program user required to have any Java IDE and git (Distributed Version Control System).
 
-- Installation
+### Installation
 I am using eclipse, java IDE and a web based git platform 'github.com'
 1. Go to the following website
    https://ninite.com/
