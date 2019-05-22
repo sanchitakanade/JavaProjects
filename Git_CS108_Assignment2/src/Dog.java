@@ -1,6 +1,6 @@
 /*
  * Name: Sanchita Kanade
- * Class: CS108 Java Programming, fall 2017
+ * Class: CS108 Java Programming
  */
 
 /**
