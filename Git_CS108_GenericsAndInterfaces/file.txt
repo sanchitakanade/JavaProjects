@@ -1,0 +1,27 @@
+Doggie Rocky's data
+----------------------
+Name     : Rocky
+Age      : 2 years
+Height   : 16.5 inches
+Weight   : 40.0 lbs
+Color    : Black
+Lifespan : 12 years
+
+Doggie Buddy's data
+----------------------
+Name     : Buddy
+Age      : 2 years
+Height   : 18.0 inches
+Weight   : 55.0 lbs
+Color    : Golden
+Lifespan : 14 years
+
+Doggie Dilbert's data
+----------------------
+Name     : Dilbert
+Age      : 1 years
+Height   : 14.5 inches
+Weight   : 35.0 lbs
+Color    : Black
+Lifespan : 15 years
+
