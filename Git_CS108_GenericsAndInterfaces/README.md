@@ -1,7 +1,3 @@
-
-
-
-
 # README.md
 ** Version 1.0.0 **
 --
@@ -13,12 +9,14 @@ Sanchita Kanade <sanchitamystudies@gmail.com>
   - Labrador.java
   - Dog.java
   - Demo.java (main class)
+  - Printable.java
   - index.html (JavaDoc file inside Doc folder)
    
 ## Project Description
 
-1. This project prints out the values of all instance variables of Dog and Labrador objects taken from ArrayList pets. 
-2. In order to print out values of instance variables of each Dog object, program calls toString method on each object.
+1. This project contains a generic method, which accepts 3 generic parameters and returns a highest parameter among them.
+2. The output contains results of comparision of 3 strings, 3 integers and 3 Labradors.
+3. This project demonstrates the use of Interfaces (i.e. Comparable and Printable) and it uses a static method 'sort' from Collections class to compare objects.
 	 
 ## Getting Started
 
