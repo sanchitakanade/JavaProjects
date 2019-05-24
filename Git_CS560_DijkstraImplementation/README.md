@@ -11,13 +11,16 @@ Sanchita Kanade <sanchitamystudies@gmail.com>
   - Graph.java
   - TextFileToMatrixConverter.java (main class)
   - input.txt
+  - HexagonMap.pdf
   - index.html (JavaDoc file inside Doc folder)
    
 ## Project Description
 
-1. This project uses quicksort algorithm to sort an ArrayList of Turkeys.
-2. Then it uses BinarySearch algorithm to find out a Turkey of particular weight and 
-3. then it uses a recursive method to reduce that Turkey gradually.
+1. This project implements Dijkstra Algorithm on a HexagonMap having 233 nodes shown in a file HexagonMap.pdf
+2. It takes text file as input and convert all data into a graph like the diagram shown in a file HexagonMap.pdf
+3. after that it finds a minimal-cost path from a source node 226 to a destination node 8
+4. and displays the minimal-cost path and a minimum cost in a file MinimumCostPath.txt.
+5. Program also displays time required to calculate minimal-cost path in ms.
 	 
 ## Getting Started
 
