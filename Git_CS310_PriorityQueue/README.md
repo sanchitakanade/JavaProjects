@@ -12,7 +12,6 @@ Sanchita Kanade <sanchitamystudies@gmail.com>
   - IQueue.java 
   - UnorderedPriQueue.java
   - App.java (main class)
-  - index.html (JavaDoc file inside Doc folder)
    
 ## Project Description
 
