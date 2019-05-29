@@ -27,11 +27,13 @@ public class UnorderedPriQueue<E extends Comparable<E>> implements IPriorityQueu
         return comparator;
     }
 
+    //Appends the element at the end of the list.
     @Override
     public void enqueue(E item) {
         arrayList.add(item);
     }
 
+    //This method always remove minimum value from the Priority Queue.
     @Override
     public E poll() {
         return arrayList.isEmpty() ? null : arrayList.remove(findElementWithLowestPriority());
@@ -62,6 +64,7 @@ public class UnorderedPriQueue<E extends Comparable<E>> implements IPriorityQueu
         return arrayList.iterator();
     }
 
+    //This method finds lowest value by comparing all elements with each other.
     private int findElementWithLowestPriority() {
         int indexHavingMinimumValue = 0;
         E lowestVal = arrayList.get(0);

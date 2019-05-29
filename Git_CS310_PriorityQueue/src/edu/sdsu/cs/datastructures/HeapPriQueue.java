@@ -8,6 +8,7 @@ import java.util.Comparator;
 import java.util.Iterator;
 import java.util.PriorityQueue;
 
+//This uses Priority Queue implemented by Java libraries.
 public class HeapPriQueue<E extends Comparable<E>> implements IPriorityQueue<E> {
     private PriorityQueue<E> priQueue;
     private Comparator<E> comparator;
@@ -27,11 +28,13 @@ public class HeapPriQueue<E extends Comparable<E>> implements IPriorityQueue<E> 
         return comparator;
     }
 
+    //This method appends an element at the end of the Priority Queue
     @Override
     public void enqueue(E item) {
         priQueue.offer(item);
     }
 
+    //This method removes head of this queue
     @Override
     public E poll() {
         return priQueue.poll();
