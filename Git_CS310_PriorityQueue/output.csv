@@ -15,3 +15,77 @@ input size,time in microseconds
 240000,250
 480000,230
 960000,554
+Array Based Priority Queue
+enqueue() 
+input size,time in milliseconds
+30000,117
+60000,246
+120000,961
+240000,4128
+480000,16793
+ 
+poll() 
+input size,time in microseconds
+30000,36
+60000,39
+120000,121
+240000,128
+480000,235
+Array Based Priority Queue
+enqueue() 
+input size,time in milliseconds
+10000,16
+20000,39
+40000,100
+80000,389
+160000,2515
+ 
+poll() 
+input size,time in microseconds
+10000,13
+20000,29
+40000,29
+80000,101
+160000,149
+
+Unordered Priority Queue
+enqueue() 
+input size,time in milliseconds
+90000,15
+180000,14
+360000,17
+720000,36
+1440000,125
+2880000,2213
+5760000,4397
+ 
+poll() 
+input size,time in microseconds
+90000,7305
+180000,6657
+360000,1698
+720000,1722
+1440000,3705
+2880000,16913
+5760000,16344
+
+Heap Based Priority Queue
+enqueue() 
+input size,time in milliseconds
+100000,37
+200000,29
+400000,29
+800000,89
+1600000,370
+3200000,299
+6400000,529
+ 
+poll() 
+input size,time in microseconds
+100000,6
+200000,22
+400000,11
+800000,13
+1600000,14
+3200000,13
+6400000,15

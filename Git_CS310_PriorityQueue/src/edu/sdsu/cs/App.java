@@ -107,12 +107,12 @@ public class App {
         ArrayPriQueue<Integer> queue1 = new ArrayPriQueue<>();
         System.out.println("Array based Priority Queue:\n");
         queueNameId = 1;
-        for(int inputSize = 30000; inputSize < 500000; inputSize *= 2) {
+        for(int inputSize = 10000; inputSize < 161000; inputSize *= 2) {
             System.out.println("Input size N: " + inputSize);
             //operationId for enqueue() operation is 1
             testReverseOrderedInput(queue1,inputSize,1);
         }
-        for(int inputSize = 30000; inputSize < 100000000; inputSize *= 2) {
+        for(int inputSize = 10000; inputSize < 161000; inputSize *= 2) {
             System.out.println("Input size N: " + inputSize);
             //operationId for poll() operation is 2
             testReverseOrderedInput(queue1,inputSize,2);
