@@ -16,11 +16,18 @@ Sanchita Kanade <sanchitamystudies@gmail.com>
 ## Project Description
 
 1.  This program contains three different implementations of Priority Queue:
-a) Array based Priority Queue
-b) 
+i) Array based Priority Queue - In this implementation elements are inserted into the queue in sorted order using 
+Binary Search algorithm and elements are always removed from the head of the queue.
+ii) Unordered priority queue - In this implementation elements are appended at the end of the queue and during poll operation
+elements with lowest priority are removed.
+iii) Heap based priority queue - This implementation uses Priority Queue implemented in Java libraries.
+elements are inserted at the end of the priority queue and elements are always removed from head of the queue.
+
 2. This program compares efficiency of three priority queue implementations, based on time required for each of them 
 for enqueue and poll operations when input size is doubled.
-2. 
+
+3. This program also uses testReverseOrderedInput() and testSortedInput() methods to test the affect of Reverse sorted input 
+and sorted input on Priority Queue operations.
 	 
 ## Getting Started
 
