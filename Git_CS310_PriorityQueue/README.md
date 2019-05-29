@@ -15,7 +15,12 @@ Sanchita Kanade <sanchitamystudies@gmail.com>
    
 ## Project Description
 
-1. 
+1.  This program contains three different implementations of Priority Queue:
+a) Array based Priority Queue
+b) 
+2. This program compares efficiency of three priority queue implementations, based on time required for each of them 
+for enqueue and poll operations when input size is doubled.
+2. 
 	 
 ## Getting Started
 
