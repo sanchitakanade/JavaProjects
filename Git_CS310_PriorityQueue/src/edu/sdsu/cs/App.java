@@ -17,6 +17,7 @@ public class App {
     private static ArrayList<Integer> arrayList = new ArrayList<>();
     private static int operationCount = 0, queueNameId = 0;
 
+    //This method inserts elements into a Priority Queue in reverse order.
     private static void testReverseOrderedInput(IPriorityQueue<Integer> queue, int size, int operationId) {
         try{
             FileWriter writer = new FileWriter("output.csv", true);
@@ -71,6 +72,7 @@ public class App {
         arrayList.clear();
     }
 
+    //This method inserts sorted elements into a Priority Queue.
     private static void testSortedInput(IPriorityQueue<Integer> queue1, int size) {
         try{
             FileWriter writer = new FileWriter("output.csv", true);
