@@ -6,12 +6,15 @@ Sanchita Kanade <sanchitamystudies@gmail.com>
 
 ## File manifest
   - README.md
-  - ArrayPriQueue.java 
-  - HeapPriQueue.java
-  - IPriorityQueue.java
-  - IQueue.java 
-  - UnorderedPriQueue.java
+  - GraphVertex.java
+  - IEdge.java
+  - IGraph.java
+  - IVertex.java
+  - WDGraph.java
+  - WeightedEdge.java
   - App.java (main class)
+  - cities.csv
+  - edges.csv
    
 ## Project Description
 
