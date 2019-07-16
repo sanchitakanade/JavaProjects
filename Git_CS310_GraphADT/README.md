@@ -1,5 +1,5 @@
 # README.md
-** Version 1.0.1 **
+** Version 1.0.2 **
 --
 ## Contributors
 Sanchita Kanade <sanchitamystudies@gmail.com>
@@ -19,7 +19,7 @@ Sanchita Kanade <sanchitamystudies@gmail.com>
 ## Project Description
 
 1. In this program, I have implemented Dijkstra's shortest path algorithm. 
-In this implementaion, I have used Priority Queue for efficiently finding vertices with smallest distance from the initial vertex, also I used Hashmap, Hashset and Arraylist for efficiency.
+In this implementaion, I have used Priority Queue for efficiently finding vertices with smallest distance from the initial vertex as well as I used Hashmap, Hashset and Arraylist for efficiency.
 2. I have used multiple interface files, generics and incorporated several ADTs (i.e., Iterable, List, Priority Queue, Map).
 2. This program calculates shortest path between first and last city mentioned in cities.csv file and it also prints graph details.
 	 
