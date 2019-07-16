@@ -10,7 +10,7 @@ Sanchita Kanade <sanchitamystudies@gmail.com>
    
 ## Project Description
 
-1. In this program, I have implemented BinarySearch algorithm using two different ways, a recursive method and non recursive method.
+1. In this program, I have implemented BinarySearch algorithm with two different ways, using recursion and without recursion.
 2. This program searches a particular element (eg. 5 here) into the given array 'arr' using both BinarySearch implementations and then print results for both.
 	 
 ## Getting Started
