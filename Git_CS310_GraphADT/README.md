@@ -1,5 +1,5 @@
 # README.md
-** Version 1.0.0 **
+** Version 1.0.1 **
 --
 ## Contributors
 Sanchita Kanade <sanchitamystudies@gmail.com>
@@ -18,19 +18,10 @@ Sanchita Kanade <sanchitamystudies@gmail.com>
    
 ## Project Description
 
-A.  This program contains three different implementations of Priority Queue:
-1) Array based Priority Queue - In this implementation elements are inserted into the queue in sorted order using 
-Binary Search algorithm and elements are always removed from the head of the queue.
-2) Unordered priority queue - In this implementation elements are appended at the end of the queue and during poll operation
-element with lowest priority is removed.
-3) Heap based priority queue - This implementation uses Priority Queue implemented in Java libraries.
-elements are inserted at the end of the priority queue and elements are always removed from head of the queue.
-
-B. This program compares efficiency of three priority queue implementations, based on time required for each of them 
-for enqueue and poll operations when input size is doubled.
-
-C. This program also uses testReverseOrderedInput() and testSortedInput() methods to test the affect of Reverse sorted input 
-and sorted input on Priority Queue operations.
+1. In this program, I have implemented Dijkstra's shortest path algorithm. 
+In this implementaion, I have used Priority Queue for efficiently finding vertices with smallest distance from the initial vertex, also I used Hashmap, Hashset and Arraylist for efficiency.
+2. I have used multiple interface files, generics and incorporated several ADTs (i.e., Iterable, List, Priority Queue, Map).
+2. This program calculates shortest path between first and last city mentioned in cities.csv file and it also prints graph details.
 	 
 ## Getting Started
 
