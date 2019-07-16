@@ -10,10 +10,10 @@ Sanchita Kanade <sanchitamystudies@gmail.com>
   - App.java (main class)
    
 ## Project Description
-1. In this program, I have implemented Binary Search tree and two sorting algorithms selection sort and insertion sort.
-2. This program sorts elements of array 'a' using selection sort and insertion sort, then prints array elements.
+1. In this program, I have implemented Binary Search tree and two sorting algorithms 'Selection Sort' and 'Insertion Sort'.
+2. This program sorts array elements using selection sort and insertion sort, and then prints them.
 3. After testing both sorting algorithms, program creates a Binary Search Tree and elements will be inserted into the tree.
-4. Then, program will calculate the height of the tree for particular element and prints all elements of the tree by inorder traversal.
+4. Then, program will calculate height of the tree for a particular element and prints all elements of the tree by inorder traversal.
 	 
 ## Getting Started
 
