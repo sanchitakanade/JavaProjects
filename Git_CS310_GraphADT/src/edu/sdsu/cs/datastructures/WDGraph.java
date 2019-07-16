@@ -42,7 +42,7 @@ public class WDGraph<V,E> implements IGraph<V,E> {
 
     @Override
     public int minimumDistance(IVertex<V> start, IVertex<V> end) {
-        dikstraAlgorithm(start,end);
+        dijkstraAlgorithm(start,end);
         return distanceFromStartVertex.get(end);
     }
 
@@ -65,7 +65,7 @@ public class WDGraph<V,E> implements IGraph<V,E> {
         return listOfVisitedEdges;
     }
 
-    private HashMap<IVertex<V>,IVertex<V>>  dikstraAlgorithm(IVertex<V> start, IVertex<V> end) {
+    private HashMap<IVertex<V>,IVertex<V>>  dijkstraAlgorithm(IVertex<V> start, IVertex<V> end) {
         final int infinity = 999999999;
         List<IEdge<E>> listOfNeighbours;
 
@@ -112,7 +112,7 @@ public class WDGraph<V,E> implements IGraph<V,E> {
     }
 
     private HashMap<IVertex<V>,IVertex<V>>  printPath(IVertex<V> start, IVertex<V> destination) {
-        HashMap<IVertex<V>,IVertex<V>> parent = dikstraAlgorithm(start,destination);
+        HashMap<IVertex<V>,IVertex<V>> parent = dijkstraAlgorithm(start,destination);
         System.out.println(destination);
         IVertex<V> vertexToPrint = parent.get(destination);
         for(int i = 1; i < parent.size();i++) {
