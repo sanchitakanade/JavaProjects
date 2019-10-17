@@ -17,8 +17,8 @@ Sanchita Kanade <sanchitamystudies@gmail.com>
 ## Project Description
 
 1. This project implements Dijkstra Algorithm on a HexagonMap having 233 nodes, shown in a file HexagonMap.pdf
-2. It takes text file as input and convert all data into a graph like the diagram in a file HexagonMap.pdf
-3. after that it finds a minimal-cost path from a source node 226 to a destination node 8
+2. It takes text file as input and convert all data into a graph, which is in the form of Hexagon Map shown in a file HexagonMap.pdf
+3. after that it finds a minimal-cost path from a source node #226 to a destination node #8
 4. and displays the minimal-cost path and a minimum cost in a file MinimumCostPath.txt.
 5. Program also displays time required to calculate minimal-cost path in ms.
 	 
